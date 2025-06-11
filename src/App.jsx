@@ -6,11 +6,14 @@ import R19Form from "./components/examples/forms/R19Form.jsx";
 import R18Refs from "./components/examples/refs/R18Refs.jsx";
 import R19Refs from "./components/examples/refs/R19Refs.jsx";
 import CompilerDemo from "./components/examples/compiler/CompilerDemo.jsx";
+import CompilerDemoManual from "./components/examples/compiler/CompilerDemoManual.jsx";
 
 function App() {
     return (
         <>
             <h1>React 19 Examples</h1>
+
+            <img src={"/img.webp"} alt="" style={{height: 500}} />
 
             {/*<R18Fetching/>*/}
             {/*<R19Fetching/>*/}
@@ -21,7 +24,8 @@ function App() {
             {/*<R18Refs/>*/}
             {/*<R19Refs/>*/}
 
-            {<CompilerDemo/>}
+            {/*<CompilerDemo/>*/}
+            {/*<CompilerDemoManual/>*/}
         </>
     )
 }
