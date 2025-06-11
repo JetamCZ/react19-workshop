@@ -17,8 +17,10 @@ function App() {
             {/*<R18Form/>*/}
             {/*<R19Form/>*/}
 
-            <R18Refs/>
-            <R19Refs/>
+            {/*<R18Refs/>*/}
+            {/*<R19Refs/>*/}
+
+
         </>
     )
 }
