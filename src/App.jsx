@@ -5,6 +5,7 @@ import R18Form from "./components/examples/forms/R18Form.jsx";
 import R19Form from "./components/examples/forms/R19Form.jsx";
 import R18Refs from "./components/examples/refs/R18Refs.jsx";
 import R19Refs from "./components/examples/refs/R19Refs.jsx";
+import CompilerDemo from "./components/examples/compiler/CompilerDemo.jsx";
 
 function App() {
     return (
@@ -20,7 +21,7 @@ function App() {
             {/*<R18Refs/>*/}
             {/*<R19Refs/>*/}
 
-
+            {<CompilerDemo/>}
         </>
     )
 }
